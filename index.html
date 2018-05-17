@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BusyBus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+  </head>
+  <body>
+    <section class="container">
+    <section class="StatusBar">
+      <img src="images/status_bar.png" class="bar">
+      <div class="pin-left">
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <svg class="pin-left" width="12px" height="22px" viewBox="0 0 12 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+            <title>Pin Left</title>
+            <desc>Created with Sketch.</desc>
+            <defs></defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="BusyBus" transform="translate(-12.000000, -31.000000)" fill="#DEDDE3" fill-rule="nonzero">
+                    <g id="Bars/Navigation/Navigation-Bar" transform="translate(-8.000000, -3.000000)">
+                        <g id="Pin-Left" transform="translate(20.000000, 34.000000)">
+                            <path d="M3.62132034,11 L11.5606602,3.06066017 C12.1464466,2.47487373 12.1464466,1.52512627 11.5606602,0.939339828 C10.9748737,0.353553391 10.0251263,0.353553391 9.43933983,0.939339828 L0.439339828,9.93933983 C-0.146446609,10.5251263 -0.146446609,11.4748737 0.439339828,12.0606602 L9.43933983,21.0606602 C10.0251263,21.6464466 10.9748737,21.6464466 11.5606602,21.0606602 C12.1464466,20.4748737 12.1464466,19.5251263 11.5606602,18.9393398 L3.62132034,11 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+     </div>
+     <div class="location">
+       <h2>Washington St</h2>
+     </div>
+   </section>
+    <!-- Beginning the map section -->
+    <section class="map">
+      <img src="images/busybusmap5.png" class="small-pic" alt="BusyBus Map">
+      <div class="Routes">
+        <h2>Routes</h2>
+      </div>
+    </section>
+      <!-- Beginning of Routes list/table -->
+    <ul class="Routes-list">
+      <li>
+      <ul class="destination">
+        <li class="Busid">60</li>
+        <li class="direction">
+          <h1>Randolph/Harbor Dr</h1>
+          <h3>Eastbound</h3>
+        </li>
+        <li class="time">
+          <h1>Arrvl 2 min</h1>
+          <h3>Every 20 min</h3>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <ul class="destination">
+        <li class="Busid">124</li>
+        <li class="direction">
+          <h1>Navy Pier</h1>
+          <h3>Eastbound</h3>
+        </li>
+        <li class="time">
+          <h1>Arrvl 1 min</h1>
+          <h3>Every 10 min</h3>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <ul class="destination">
+        <li class="Busid">151</li>
+        <li class="direction">
+          <h1>Devon/Clark</h1>
+          <h3>Northbound</h3>
+        </li>
+        <li class="time">
+          <h1>Arrvl 9 min</h1>
+          <h3>Every 16 min</h3>
+        </li>
+      </ul>
+    </li>
+    <li>
+        <ul class="destination">
+          <li class="Busid">J14</li>
+          <li class="direction">
+            <h1>103rd/Stony Island</h1>
+            <h3>Southbound</h3>
+          </li>
+          <li class="time">
+            <h1>Arrvl 6 min</h1>
+            <h3>Every 15 min<h3>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="destination">
+          <li class="Busid">124</li>
+          <li class="direction">
+            <h1>Navy Pier</h1>
+            <h3>Southbound</h3>
+          </li>
+          <li class="time">
+            <h1>Arrvl 8 min</h1>
+            <h3>Every 10 min<h3>
+            </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="destination">
+          <li class="Busid">6x</li>
+          <li class="direction">
+            <h1> Jackson Park Express</h1>
+            <h3>Reroute</h3>
+          </li>
+          <li class="time">N/A</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="destination">
+          <li class="Busid">4</li>
+          <li class="direction">
+            <h1>Cottage Grove</h1>
+            <h3>Out of Service</h3>
+          </li>
+          <li class="time">Resumes 12:10am</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="destination">
+          <li class="Busid">20</li>
+          <li class="direction">
+            <h1>Madison</h1>
+            <h3>Out of Service</h3>
+          </li>
+          <li class="time">Resumes 12:10am</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="destination">
+          <li class="Busid">157</li>
+          <li class="direction">
+            <h1>Streeterville/Taylor</h1>
+            <h3>Out of Service</h3>
+          </li>
+          <li class="time">Resumes 6:00am</li>
+        </ul>
+      </li>
+      </ul>
+      <!-- Beginning of bottom navigation bar -->
+      <div class="navigation">
+      <a href="Favorites" class="favorites">
+        <img src="images/favorites.png">
+      </a>
+      <a href="Home" class="home">
+        <img src="images/home.png">
+      </a>
+      <a href="Settings" class="settings">
+        <img src="images/settings.png">
+      </a>
+      </div>
+    </section>
+  </body>
+</html>
